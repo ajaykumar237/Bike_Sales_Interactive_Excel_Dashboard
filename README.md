@@ -18,7 +18,7 @@ In the initial data preparation phase, performed the following tasks:
 1. Data loading and inspection
 2. Data Cleaning - remove the duplicates from dataset, made data consistent in columns (marital status, gender, income, commute distance)
 3. Data Processing - added a new column (age brackets)
-   - age brackets = IF(>55, "Old", IF(>=30, "Middle Age", IF(<30, "Youth","Invalid")))
+   - age brackets = IF(L2>55, "Old", IF(L2>=30, "Middle Age", IF(L2<30, "Youth","Invalid")))
 
 
 ### Data Analysis

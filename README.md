@@ -24,20 +24,20 @@ In the initial data preparation phase, performed the following tasks:
 ### Data Analysis
 1. Used pivot table to calculate and analyse data
 2. Created 3 pivot charts to visually analyse the data at a quick glance
-3. Connected all the charts with slicers to analyse the data as per user selection
+3. Added slicers to analyse the results on the basis of marital status, region, and education
+4. Connected all the charts with slicers to analyse the data as per user selection 
 
 ### Results/ Findings
 
 The analysis results are summarized as follows:
-- Women are more likey to buy compared to men (~65%)
-- Maharashtra, Karnataka, Uttar Pradesh are the top 3 buying states (~35%)
-- Adult age group 30-49 years contributing max (~50%)
-- Amazon, Flipkart and Myntra are max contributing (~80%)
+- Average income of male is $60,124 and female is $55,774 who purchased bike
+- Ones who commute 0-1 Miles puchased the maximum number of bikes 200 out of 481
+- Middle Age (31-54)years people purchased 383 out of 481 bikes
 
 ### Recommendations
 Based on the analysis, recommend the following actions:
-  -  Target women customers of age group 30-49 years
-  -  Aim for women who lives in Maharashtra, Karnataka, Uttar Pradesh
-  -  Show ads/coupons/offers availabe on Amazon, Flipkart and Myntra
+- Aim for people who are in the middle age group (31-54)years
+- Target the people with average income more than $55,000
+- Give offers to ones who commutes less than 1 Mile per day
 
     

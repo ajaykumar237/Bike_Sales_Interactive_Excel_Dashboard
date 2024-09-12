@@ -1,11 +1,7 @@
 # Bike Sales Interactive Excel Dashboard
--	Developed an interactive dashboard, utilizing lookups and pivot tables to analyse data, leading to a 30% reduction in reporting time.
--	Discovered potential customers across different states, age groups, occupations, and gender.
--	Identified and targeted potential customers across demographics, resulting in a 15% increase in sales.
-# Store Sales Analysis Using Excel
 
 ### Project Overview
-This project aims to provide insights into the sales performance of a bike company for the past year 2022. So that, organization can understand their customers and increase sales in the upcoming year 2023. 
+This project aims to provide actionable insights into the sales performance of a bike organization. So that, organization can understand their customers and increase sales in the upcoming year. 
 
 
 
@@ -20,14 +16,15 @@ Sales Data: The primary dataset used for this analysis is the "raw_bikedata.xlsx
 ### Data Cleaning/ Preparation
 In the initial data preparation phase, performed the following tasks:
 1. Data loading and inspection
-2. Data Cleaning - made data consistent in columns (gender, quantity)
-3. Data Processing - made two new columns (age-group, month)
+2. Data Cleaning - remove the duplicates from dataset, made data consistent in columns (marital status, gender, income, commute distance)
+3. Data Processing - added a new column (age brackets)
+   - age brackets = IF(>60, "Old", IF(>=18, "Middle Age", IF(<18, "Young","Invalid")))
 
 
 ### Data Analysis
-1. Used pivot table to calcualte and analyse data
-2. Created 6 pivot charts to visually analyse the data further
-3. Connected all the charts with slicers for dynamic dashboard experience
+1. Used pivot table to calculate and analyse data
+2. Created 3 pivot charts to visually analyse the data at a quick glance
+3. Connected all the charts with slicers to analyse the data as per user selection
 
 ### Results/ Findings
 

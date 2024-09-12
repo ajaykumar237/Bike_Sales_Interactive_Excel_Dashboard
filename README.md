@@ -4,12 +4,16 @@
 This project aims to provide actionable insights into the sales performance of a bike organization. So that, organization can understand their customers and increase sales in the upcoming year. 
 
 
+### Dashboard
+
+
+![Screenshot 2024-09-12 131041](https://github.com/user-attachments/assets/88e5acfc-103d-4f11-94e5-b0c1b638e63c)
 
 
 
 
 ### Data Sources
-Sales Data: The primary dataset used for this analysis is the "raw_bikedata.xlsx" file, containing detailed information about each sale made by the store.
+Sales Data: The primary dataset used for this analysis is the "raw_bikedata.xlsx" file, containing detailed information about each sale made by the organization.
 ### Tools
 - Excel - Data Cleaning, Data Analysis and Dashboard Creation
   
